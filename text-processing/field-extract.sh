@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
-# Print unique fields from text file 
 # Requirements: Logs should be indentical format
 # Uncomment for grep functionality (WIP).
-###To do:   -add sed to trim the fat left on current result
-###         -tab completion of file line
-###         -make grep better
+
 
 read -p 'Enter filepath: ' file
 ###read -p 'grep content: ' greppy
