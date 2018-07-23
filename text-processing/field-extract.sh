@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Requirements: Logs should be indentical format
-# Uncomment for grep functionality (WIP).
+# Uncomment for grep functionality (WIP)
 
 
 read -p 'Enter filepath: ' file
@@ -12,7 +12,7 @@ head -n 1 $file | awk '{OFS = " "; print $0}' | awk '{print $0}' RS=' |	' | nl #
 echo ""
 
 arrColumns=
-echo 'Enter Field Numbers ([Ctrl-D] to exit): '
+echo 'Enter field numbers (newline each #/[Ctrl-D] to exit): '
 while read col 
 do
        arrColumns+=($col)
