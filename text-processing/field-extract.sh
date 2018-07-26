@@ -3,7 +3,7 @@
 # Uncomment for grep functionality (WIP)
 
 
-read -p 'Enter filepath: ' file
+read -ep 'Enter filepath: ' file
 ###read -p 'grep content: ' greppy
 
 ###OFS=replace delimeter with single space. RS=defines a line separated by spaces or tabs.
@@ -11,6 +11,7 @@ head -n 1 $file | awk '{OFS = " "; print $0}' | awk '{print $0}' RS=' |	' | nl #
 
 echo ""
 
+###replace with read -a?
 arrColumns=
 echo 'Enter field numbers (newline each #/[Ctrl-D] to exit): '
 while read col 
