@@ -4,7 +4,7 @@
 ## Requirements: 
   Logs must be indentical format
 
-## To do:
+## TO-DO:
 - add sed to trim the fat left on current results
 - ~~tab completion of file line ~~
 - make grep better
