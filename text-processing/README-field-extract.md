@@ -6,7 +6,7 @@
 
 ## TO-DO:
 - add sed to trim the fat left on current results
-- ~~tab completion of file line ~~
+- ~~tab completion of file line~~
 - make grep better
 - support multiple log formats
 - determine if all logs share same format
