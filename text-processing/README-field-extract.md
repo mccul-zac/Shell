@@ -6,10 +6,9 @@
 
 ## To do:
   - [ ] add sed to trim the fat left on current results
-  - [ ] tab completion of file line 
+  - [X] tab completion of file line 
   - [ ] make grep better
   - [ ] support multiple log formats
   - [ ] determine if all logs share same format
-      [ ] wc each line in file
-      [ ] spilt file if multiple wc appears
+ 
     
