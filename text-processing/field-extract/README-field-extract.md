@@ -10,4 +10,5 @@
 - make grep better
 - support multiple log formats
 - determine if all logs share same format
+- count total for each result 
  
