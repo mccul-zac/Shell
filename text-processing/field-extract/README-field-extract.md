@@ -5,7 +5,7 @@
   Logs must be indentical format
 
 ## TO-DO:
-- add sed to trim the fat left on current results
+- add sed to trim the fat
 - ~~tab completion of file line~~
 - make grep better
 - support multiple log formats
