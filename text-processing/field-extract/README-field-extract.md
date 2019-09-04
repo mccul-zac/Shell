@@ -1,5 +1,5 @@
 ## Purpose:
-  Print unique fields from text file 
+  Print unique fields from text file (It's like tabling field(s) in Splunk)
 
 ## Requirements: 
   Logs must be indentical format
